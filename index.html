@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday Raj ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect"
+href="https://fonts.googleapis.com">
+
+<link rel="preconnect"
+href="https://fonts.gstatic.com"
+crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Great+Vibes&display=swap"
+rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Background Music -->
+
+<audio id="music" loop>
+
+<source
+src="music/birthday.mp3"
+type="audio/mpeg">
+
+</audio>
+
+<!-- Floating Hearts -->
+
+<div class="hearts"></div>
+
+<!-- Stars -->
+
+<div class="stars"></div>
+
+<!-- Sparkles -->
+
+<div class="sparkles"></div>
+
+<!-- Navigation -->
+
+<div class="progressBar">
+
+<div class="progress"></div>
+
+</div>
+
+<!-- ================================= -->
+
+<!-- HOME PAGE -->
+
+<!-- ================================= -->
+
+<section class="page active"
+id="page1">
+
+<div class="container">
+
+<h3>🤎 Made Especially For You 🤎</h3>
+
+<h1>Happy Birthday</h1>
+
+<h2>RAJ ❤️</h2>
+
+<img
+src="images/bears.png"
+class="bear">
+
+<p class="quote">
+
+"Every heartbeat of mine whispers your name."
+
+</p>
+
+<p>
+
+Welcome to a little world made only for you.
+
+Every click will reveal another surprise.
+
+I hope this makes your birthday even more special.
+
+</p>
+
+<button onclick="startJourney()">
+
+💝 Begin Our Journey
+
+</button>
+
+</div>
+
+</section>
+<!-- ================================= -->
+<!-- PAGE 2 -->
+<!-- LOVE STORY -->
+<!-- ================================= -->
+
+<section class="page" id="page2">
+
+<div class="container">
+
+<h1>💖 Dear Raj 💖</h1>
+
+<p class="quote">
+"Every day with you is my favorite chapter."
+</p>
+
+<p>
+Happy Birthday to the most wonderful person in my life.
+Thank you for making me smile, supporting me,
+and filling my heart with happiness.
+</p>
+
+<p>
+I hope this year brings you success,
+good health,
+endless happiness,
+and all your dreams come true.
+</p>
+
+<button onclick="nextPage()">
+Next ❤️
+</button>
+
+</div>
+
+</section>
+
+
+<!-- ================================= -->
+<!-- PAGE 3 -->
+<!-- REASONS WHY I LOVE YOU -->
+<!-- ================================= -->
+
+<section class="page" id="page3">
+
+<div class="container">
+
+<h1>❤️ Reasons Why I Love You ❤️</h1>
+
+<div class="reason">😊 Your beautiful smile</div>
+
+<div class="reason">🤗 You always make me feel safe</div>
+
+<div class="reason">💝 Your caring heart</div>
+
+<div class="reason">🌎 You always support me</div>
+
+<div class="reason">😂 You make me laugh</div>
+
+<div class="reason">🥰 You understand me</div>
+
+<div class="reason">❤️ Because you are YOU</div>
+
+<button onclick="nextPage()">
+
+Continue ➜
+
+</button>
+
+</div>
+
+</section>
+
+
+<!-- ================================= -->
+<!-- PAGE 4 -->
+<!-- ROMANTIC QUOTES -->
+<!-- ================================= -->
+
+<section class="page" id="page4">
+
+<div class="container">
+
+<h1>💕 Just For You 💕</h1>
+
+<p class="quote">
+
+"You are my today,
+my tomorrow,
+and my forever."
+
+</p>
+
+<p class="quote">
+
+"If I had one wish,
+it would be to celebrate every birthday with you."
+
+</p>
+
+<p class="quote">
+
+"Thank you for being my happiness,
+my peace,
+and my favorite person."
+
+</p>
+
+<p class="quote">
+
+"I may not always say it,
+but I love you more every single day."
+
+</p>
+
+<button onclick="nextPage()">
+
+One More Surprise ❤️
+
+</button>
+
+</div>
+
+</section>
+<!-- ================================= -->
+<!-- PAGE 5 -->
+<!-- LOVE LETTER -->
+<!-- ================================= -->
+
+<section class="page" id="page5">
+
+<div class="container">
+
+<h1>💌 A Letter From My Heart 💌</h1>
+
+<p>
+Click the envelope below...
+</p>
+
+<div class="envelope" onclick="openLetter()">
+
+💌
+
+</div>
+
+<div id="letter">
+
+<h2>My Dearest Raj ❤️</h2>
+
+<p>
+
+Happy Birthday, my love.
+
+I don't know how to express how thankful I am to have you in my life.
+
+You have brought so much happiness, comfort, and love into my world.
+
+Every conversation with you,
+every smile,
+every memory,
+is something I treasure deeply.
+
+</p>
+
+<p>
+
+On your birthday, I only wish that your life is filled with success, laughter, good health, and endless happiness.
+
+No matter what happens,
+I will always pray for your happiness because your smile means everything to me.
+
+</p>
+
+<p>
+
+Thank you for being such an amazing person.
+
+Never change who you are.
+
+Keep smiling,
+keep dreaming,
+and always remember that someone loves you with all her heart.
+
+</p>
+
+<h2>
+
+❤️ Happy Birthday Once Again ❤️
+
+</h2>
+
+<h3>
+
+Forever Yours 🤎
+
+</h3>
+
+</div>
+
+<button onclick="nextPage()">
+
+Continue ❤️
+
+</button>
+
+</div>
+
+</section>
+
+<!-- ================================= -->
+<!-- PAGE 6 -->
+<!-- MEMORY GALLERY -->
+<!-- ================================= -->
+
+<section class="page" id="page6">
+
+<div class="container">
+
+<h1>
+
+📸 Our Beautiful Memories
+
+</h1>
+
+<p>
+
+Every picture tells a story...
+
+</p>
+
+<div class="gallery">
+
+<img src="images/photo1.jpg" class="memory">
+
+<img src="images/photo2.jpg" class="memory">
+
+<img src="images/photo3.jpg" class="memory">
+
+<img src="images/photo4.jpg" class="memory">
+
+<img src="images/photo5.jpg" class="memory">
+
+<img src="images/photo6.jpg" class="memory">
+
+</div>
+
+<p>
+
+Every memory with you is my favorite memory.
+
+I can't wait to create thousands more together.
+
+❤️
+
+</p>
+
+<button onclick="nextPage()">
+
+Next Surprise 🎁
+
+</button>
+
+</div>
+
+</section>
+<!-- ================================= -->
+<!-- PAGE 7 -->
+<!-- INTERACTIVE BIRTHDAY CAKE -->
+<!-- ================================= -->
+
+<section class="page" id="page7">
+
+<div class="container">
+
+<h1>🎂 Make A Birthday Wish 🎂</h1>
+
+<p>
+Close your eyes, make a wish, and click the cake to blow out the candles.
+</p>
+
+<div class="cake" onclick="blowCandles()">
+
+🕯️🕯️🕯️
+
+<br>
+
+🎂
+
+</div>
+
+<p id="cakeMessage"></p>
+
+<button onclick="nextPage()">
+Next Surprise 🎁
+</button>
+
+</div>
+
+</section>
+
+<!-- ================================= -->
+<!-- PAGE 8 -->
+<!-- SURPRISE GIFT -->
+<!-- ================================= -->
+
+<section class="page" id="page8">
+
+<div class="container">
+
+<h1>🎁 A Special Gift For You 🎁</h1>
+
+<p>
+
+Click the gift box...
+
+</p>
+
+<div class="gift" onclick="openGift()">
+
+🎁
+
+</div>
+
+<p id="giftMessage"></p>
+
+<button onclick="nextPage()">
+
+Final Surprise ❤️
+
+</button>
+
+</div>
+
+</section>
+
+<!-- ================================= -->
+<!-- PAGE 9 -->
+<!-- FINAL PAGE -->
+<!-- ================================= -->
+
+<section class="page" id="page9">
+
+<div class="container">
+
+<h1>🎉 Happy Birthday Raj ❤️</h1>
+
+<img src="images/bears.png" class="bear">
+
+<h2>
+
+May your smile always stay this beautiful.
+
+</h2>
+
+<p>
+
+I hope this birthday is as wonderful as you are.
+
+Thank you for bringing so much happiness into my life.
+
+May every dream you have come true,
+
+and may every day ahead be filled with love,
+
+success,
+
+good health,
+
+and endless smiles.
+
+</p>
+
+<p class="quote">
+
+"You are my favorite person,
+
+my happiest place,
+
+and my forever."
+
+</p>
+
+<h2>
+
+❤️ I Love You Forever ❤️
+
+</h2>
+
+<button onclick="playMusic()">
+
+🎵 Play Our Song
+
+</button>
+
+<button onclick="createFireworks()">
+
+🎆 Celebrate
+
+</button>
+
+</div>
+
+</section>
+
+<!-- JavaScript -->
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
