@@ -79,20 +79,7 @@ nextPage();
 }
 
 // ------------------------------
-// Auto Slideshow
-// ------------------------------
 
-setInterval(()=>{
-
-if(currentPage<pages.length-1){
-
-currentPage++;
-
-showPage(currentPage);
-
-}
-
-},15000);
 
 // ------------------------------
 // Show First Page
